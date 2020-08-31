@@ -1,3 +1,34 @@
+# Airflow at IDSC
+[docs](https://airflow.apache.org/docs/stable/)
+
+[simple docker example](https://towardsdatascience.com/dockerizing-airflow-58a8888bd72d)
+
+[bitnami full fledge aiflow docker](https://github.com/bitnami/bitnami-docker-airflow)
+
+[docs docker operator](https://airflow.apache.org/docs/stable/_api/airflow/operators/docker_operator/index.html)
+
+##  
+
+```
+bitnami/airflow:latest
+default user: user / bitnami
+Load DAG files
+Custom DAG files can be mounted to /opt/bitnami/airflow/dags.
+```
+
+
+
+```
+repo/
+repo/src
+repo/data
+repo/reports
+repo/dag
+- docker-compose.yaml
+
+```
+
+
 # What is Apache Airflow?
 
 > Airflow is a platform to programmatically author, schedule and monitor workflows.
